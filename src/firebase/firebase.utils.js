@@ -12,7 +12,7 @@ const config = {
   appId: "1:897033540768:web:25a673508b008dfaf665c5",
   measurementId: "G-04LPMFW4QK"
 };
-// Initialize Firebase
+
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
